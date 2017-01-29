@@ -29,6 +29,9 @@ a {
   padding: 3% 10%;
   background-color: #1f2845;
 }
+#contact input[type="text"]{
+  background-color: rgba(255, 0, 0, 1);
+}
 #footer{
   margin: 0;
   padding: 2% 0;
