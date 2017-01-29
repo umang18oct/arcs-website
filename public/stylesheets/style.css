@@ -154,10 +154,24 @@ input[type=text]:focus::-webkit-input-placeholder {
   font-size: 20px;
   padding-left: 10%;
 }
-#footer{
+#footer {
   margin: 0;
   padding: 2% 0;
   color: white;
   background-color: #0f1523;
-
+}
+#workshops {
+  padding: 3% 10%;
+}
+#ws1, #ws2, #ws3 {
+  width: 25%;
+  border: 2px solid #1f2845 !important;
+  margin-top: 3%;
+  height: 40%;
+}
+#ws1{
+  margin-left:5.2%;
+}
+#ws1, #ws2 {
+  margin-right: 7%;
 }
