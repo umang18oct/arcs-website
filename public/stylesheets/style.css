@@ -22,15 +22,56 @@ a {
   z-index: 99;
   position: absolute;
   top: 3%;
-  left: 45%;
+  left: 44%;
 }
 #contact {
   color: white;
-  padding: 3% 10%;
+  padding: 3% 8%;
   background-color: #1f2845;
 }
-#contact input[type="text"]{
-  background-color: rgba(255, 0, 0, 1);
+#contact input[type="text"],input[type="submit"] {
+  padding: 20px;
+  margin-bottom: 15px;
+  padding-bottom: 0;
+  border: 0;
+  background-color: rgba(31, 40, 69, 1);
+  text-align: left;
+  margin-right: 10px;
+  color: white;
+  vertical-align: bottom;
+  font-size: 18px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+#contact input[type="text"] {
+  border-bottom: 2px solid white;
+}
+#name, #email {
+  width:45%;
+}
+#subject, #message {
+  width: 92%;
+}
+input[type=text]:focus {
+    outline: 0;
+
+}
+input[type=text]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+#details {
+  font-size: 20px;
+  padding-left: 10%;
 }
 #footer{
   margin: 0;

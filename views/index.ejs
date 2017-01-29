@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <!-- Latest compiled and minified CSS -->
@@ -22,35 +23,38 @@
     <!-- Contact US -->
     <div id='contact' class='row'>
       <h2> CONTACT US </h2>
-      <div class='col-lg-8 col-md-8 col-sm-12'>
-        <input type="text" placeholder="NAME">
-        <input type="text" placeholder="EMAIL">
-        <br>
-        <input type="text" placeholder="SUBJECT">
-        <br>
-        <br>
-        <input type="text" placeholder="MESSAGE">
-        <br>
-        <input type="submit" value="SEND">
+      <div class='col-lg-6 col-md-6 col-sm-12' id="contactForm">
+        <center>
+          <input type="text" placeholder="NAME" id="name">
+          <input type="text" placeholder="EMAIL" id="email">
+          <br>
+          <input type="text" placeholder="SUBJECT" id="subject">
+          <br>
+          <br>
+          <input type="text" placeholder="MESSAGE" id="message">
+          <br>
+          <b><input type="submit" value="SEND" id="send"></b>
+        </center>
       </div>
-      <div class='col-lg-4 col-md-4 col-sm-12'>
-        <p>
-          <span class="glyphicon glyphicon-map-marker"></span>Venue - Vellore Institute of Technology</p>
-        <p><span class="glyphicon glyphicon-globe"></span>www.ieeecsvit.com <br> or mail us at ieeecs@vit.ac.in</p>
-        <p><span class="glyphicon glyphicon-earphone"></span>+91 9718248382</p>
+      <div class='col-lg-6 col-md-6 col-sm-12' id="details">
+        <p><span class="glyphicon glyphicon-map-marker"></span> &nbsp; Venue - Vellore Institute of Technology, Vellore</p>
+        <br>
+        <p><span class="glyphicon glyphicon-globe"></span> &nbsp; www.ieeecsvit.com <br> &nbsp; &nbsp; or mail us at ieeecs@vit.ac.in</p>
+        <br>
+        <p><span class="glyphicon glyphicon-earphone"></span> &nbsp;  +91 9718248382</p>
       </div>
     </div>
     <!-- Footer -->
     <div id="footer">
       <center>
         <a class="btn btn-social-icon btn-facebook">
-          <span class="fa fa-facebook"></span>
+          <span class="fa fa-facebook fa-3x"></span>
         </a>
         <a class="btn btn-social-icon btn-github">
-          <span class="fa fa-github"></span>
+          <span class="fa fa-github fa-3x"></span>
         </a>
         <br>
-        <h4><i class="fa fa-copyright" aria-hidden="true"></i> IEEE - Computer Society, VIT Vellore</h4>
+        <h4><i class="fa fa-copyright " aria-hidden="true"></i> IEEE - Computer Society, VIT Vellore</h4>
       </center>
     </div>
     <script src='/js/main.js' type='text/javascript'></script>

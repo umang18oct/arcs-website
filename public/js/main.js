@@ -3,6 +3,14 @@ function init_map(){
     zoom:15,
     center:new google.maps.LatLng(12.969264,79.15593799999999),
     scrollwheel: false,
+    draggable: false,
+    panControl: true,
+    zoomControl: true,
+    mapTypeControl: true,
+    scaleControl: true,
+    streetViewControl: true,
+    overviewMapControl: true,
+    rotateControl: true,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   };
   map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
