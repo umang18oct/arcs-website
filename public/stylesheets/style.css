@@ -7,7 +7,6 @@ body {
 a {
   color: #00B7FF;
 }
-
 #map {
   padding: 0;
   position: relative;
@@ -65,7 +64,7 @@ color:#333;
 
 }
 .glyphicon {
-font-size:16px;
+font-size:17px;
 }
 
 .bg2  {
@@ -100,4 +99,24 @@ font-size:16px;
 .bg1 h1
 {
   color:white;
+}
+
+.bg3 {
+  height:380px;
+}
+
+ #contact {
+  color: white;
+  padding: 3% 10%;
+  background-color: #1f2845;
+}
+#contact input[type="text"]{
+  background-color: rgba(255, 0, 0, 1);
+}
+#footer{
+  margin: 0;
+  padding: 2% 0;
+  color: white;
+  background-color: #0f1523;
+
 }
