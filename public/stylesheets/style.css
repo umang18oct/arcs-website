@@ -71,9 +71,6 @@ font-size:17px;
   height:500px;
 }
 
-.first {
-
-}
 
 .content {
 
@@ -103,6 +100,24 @@ font-size:17px;
 
 .bg3 {
   height:380px;
+}
+
+
+/*bg4*/
+.bg4 {
+  height:550px;
+  width:100%;
+  background-color:#1F2945;
+  color:white;
+}
+
+ #para {
+
+font-size:15px;
+word-spacing: 2px;
+}
+.bg4 .content {
+  margin:30px;
 }
 
  #contact {
