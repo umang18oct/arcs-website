@@ -2,9 +2,9 @@ body {
   padding: 0;
   margin: 0;
   font-size: 14px;
-  //to avoid horizontal scroll
   overflow-y: auto;
   overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
 }
 a {
   color: #00B7FF;
@@ -71,11 +71,9 @@ font-size:17px;
 
 .bg2  {
   height:500px;
+  width:100%;
 }
 
-.first {
-
-}
 
 .content {
 
@@ -107,6 +105,25 @@ font-size:17px;
   height:380px;
 }
 
+
+/*bg4*/
+.bg4 {
+  height:550px;
+  width:100%;
+  background-color:#1F2945;
+  color:white;
+}
+
+ #para {
+
+font-size:15px;
+word-spacing: 2px;
+}
+
+.bg4 .content {
+  margin:30px;
+}
+
  #contact {
   margin-right:0px;
   color: white;
@@ -125,6 +142,7 @@ font-size:17px;
   vertical-align: bottom;
   font-size: 18px;
 }
+
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: white;
 }

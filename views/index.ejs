@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <!-- Latest compiled and minified CSS -->
@@ -13,11 +12,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
     <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBU8q43APiRX30mvOkWIoB_cuvMfvMddKg'></script>
   </head>
-  <style>
-  body {
-    font-family: 'Montserrat', sans-serif;
-   }
-  </style>
   <body>
 
   <!--Header-->
@@ -75,17 +69,17 @@
 
 
 <!--bg2-->
-<div class="contaoner-fluid bg2">
+<div class="bg2">
 <div class="row">
 
-  <div class="col-lg-7 col-md-12 col-sm-7 first">
+  <div class="col-lg-7 col-md-7 col-sm-7 first">
     <div class="content" style="margin:30px;display:block">
       <p style="color:#6666ff">ABOUT THE EVENT</p>
 
       <h1 >ARCS'17<h1>
 
 
-      <p style="font-size:14px;opacity:0.7;padding:10px;word-spacing:4px;">ARCS'17 is technical colloquium which will aim at improving the technical knowledge of
+      <p style="font-size:14px;opacity:0.7;padding:5px;word-spacing:2px;">ARCS'17 is technical colloquium which will aim at improving the technical knowledge of
         the young technical minds who are a part of this institution.
         For Achieving the same,three workshops will be hosted by our team.
         The workshops will be headed by reknowned speakers from all over India.These individuals have excellent knowledge about their respective subjects.
@@ -105,9 +99,10 @@
 
 
 
-  <div class="col-lg-5  col-md-12 col-sm-5 image2">
+  <div class="col-lg-5  col-md-5 col-sm-5 image2">
     <img src="/images/table.jpg" alt='' style="height:500px;width:100%">
   </div>
+
 
 </div><!--end row-->
 </div><!--end bg2-->
@@ -117,32 +112,78 @@
   <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-12">
 
-    <img src="/images/image3.jpg" style="height:380px;width:100%;opacity:0.9" >
+    <img src="/images/image3.jpg" style="height:380px;width:100%;filter: grayscale(80%) contrast(70%) brightness(70%);  " >
 
   </div>
 </div>
 
 </div><!--end bg3-->
-  <!-- Workshops -->
-  <div class="row" id="workshops">
-    <center>
-      <h1>WORKSHOPS</h1>
-    </center>
+
+
+
+<!--bg4-->
+<div class="bg4">
+  <br>
+  <div class="row">
+
+    <div class="col-lg-6 col-md-6 col-sm-6">
+
+        <div class="content" style="margin:auto;padding:20px;">
+          <p style="color:#6666ff">ABOUT </p>
+
+          <h1 >IEEE-CS VIT<h1>
+
+            <br>
+            <p id="para">
+              IEEE Computer Society has long been stationed among the garrisons
+              of computing power and knowledge that humankind has come to accumulate
+              till date. Our Student chapter is one among 200 such organizations worldwide,
+              and we strive to look at everything from a perspection that is always deemed different.
+              <br>
+              <br>
+              At VIT , this society aims at creating awarenesss about the new advances in the field of
+              Computer Science and imparting knowledge related to this field by conducting different
+              workshops and events throughout the semester. IT gives substancial benefit to all the
+              computer science enthusiasts as well as provides a support to other students to know about
+              the technology that is ruling the world today .
+            </p>
+         </div>
+       </div>
+
+
+    <div class="col-lg-6 col-md-6 col-sm-6">
+
+      <img src="/images/people.jpg" style="height:530px;width:100%"  alt=''>
+
+    </div>
+
+</div>
+
+
+</div>
+
+
+
+    <!-- Workshops -->
+    <div class="row" id="workshops">
+      <center>
+        <h1>WORKSHOPS</h1>
+      </center>
       <div class='col-lg-3 col-md-3 col-sm-9' id="ws1">
-        <img src="#">
-      </div>
-      <div class='col-lg-3 col-md-3 col-sm-9' id="ws2">
-        <img src="#">
-      </div>
-      <div class='col-lg-3 col-md-3 col-sm-9' id="ws3">
-        <img src="#">
-      </div>
-  </div>
-  <!-- Map -->
-  <div id="map">
-    <div id='gmap_canvas' style='height:440px;width:100%;'></div>
-    <h2> VISIT US </h2>
-  </div>
+          <img src="#">
+        </div>
+        <div class='col-lg-3 col-md-3 col-sm-9' id="ws2">
+          <img src="#">
+        </div>
+        <div class='col-lg-3 col-md-3 col-sm-9' id="ws3">
+          <img src="#">
+        </div>
+    </div>
+    <!-- Map -->
+    <div id="map">
+      <div id='gmap_canvas' style='height:440px;width:100%;'></div>
+      <h2> VISIT US </h2>
+    </div>
   <!-- Contact US -->
     <div id='contact' class='row'>
       <h2> CONTACT US </h2>
@@ -162,14 +203,13 @@
         </center>
       </div>
       <div class='col-lg-6 col-md-6 col-sm-12' id="details">
-        <p><span class="glyphicon glyphicon-map-marker"></span> &nbsp; Venue - Vellore Institute of Technology, Vellore</p>
         <br>
-        <p><span class="glyphicon glyphicon-globe"></span> &nbsp; www.ieeecsvit.com <br> &nbsp; &nbsp; or mail us at ieeecs@vit.ac.in</p>
-        <br>
+        <p><span class="glyphicon glyphicon-map-marker"></span>  Venue - Vellore Institute of Technology, Vellore</p>
+        <p><span class="glyphicon glyphicon-globe"></span>  www.ieeecsvit.com <br> &nbsp; &nbsp; or mail us at ieeecs@vit.ac.in</p>
         <p><span class="glyphicon glyphicon-earphone"></span> &nbsp;  +91 9718248382</p>
       </div>
     </div>
-    <!-- Footer -->
+  <!-- Footer -->
     <div id="footer">
       <center>
         <a href="https://www.fb.com/ieeecsvit/" class="btn btn-social-icon btn-facebook">
