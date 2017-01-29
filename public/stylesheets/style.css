@@ -1,7 +1,8 @@
 body {
   padding: 0;
   margin: 0;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  overflow:auto;
 }
 a {
   color: #00B7FF;
@@ -24,7 +25,87 @@ a {
   top: 3%;
   left: 44%;
 }
-#contact {
+
+/*/
+.navbar-right li {
+
+  padding-left:25px;
+
+}
+*/
+.navbar-collapse .navbar-right  {
+
+  font-size: 15px;
+
+
+}
+
+.bg1 .text {
+  width:50%;
+  margin:auto;
+  border:2px solid #00e6ac;
+
+}
+
+
+.navbar-collapse ul li a:hover {
+color:#333;
+}
+
+
+.ieee  {
+   width: 20%;
+   margin: auto;
+   background-color:#6666ff;
+   color:white;
+   margin-top:-10px;
+
+   font-size: 15px;
+
+}
+.glyphicon {
+font-size:17px;
+}
+
+.bg2  {
+  height:500px;
+}
+
+.first {
+
+}
+
+.content {
+
+  margin-right:50px;
+
+
+}
+
+
+
+.bg1
+{
+  z-index:100;
+  position: absolute;
+  width:100%;
+  top:200px;
+}
+
+.bg1 p {
+  color:white;
+}
+
+.bg1 h1
+{
+  color:white;
+}
+
+.bg3 {
+  height:380px;
+}
+
+ #contact {
   color: white;
   padding: 3% 8%;
   background-color: #1f2845;
@@ -78,4 +159,5 @@ input[type=text]:focus::-webkit-input-placeholder {
   padding: 2% 0;
   color: white;
   background-color: #0f1523;
+
 }
