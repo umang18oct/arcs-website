@@ -13,18 +13,18 @@ function sendMail(req, res) {
     var transporter = nodemailer.createTransport({
         service: 'Gmail',
         auth: {
-            user: 'ieeecs@vit.ac.in', // Your email id
-            pass: 'password' // Your password
+            user: 'ieeecs@vit.ac.in', //username
+            pass: 'password'          //password
         }
     });
 
-    var text = 'Hello! from \t'+ req.body.name;
+    var text = 'Hello! from \t IEEE - Computer Society\n Thank you for contacting us. Will reach to you soon.';
 
     var mailOptions = {
-        from: req.body.email, // sender address
-        to: 'ieeecs@vit.ac.in', // list of receivers
+        from: 'ieeecs@vit.ac.in', // sender address
+        to: req.body.email, // list of receivers
         subject: req.body.subject, // Subject line
-        text: text+'\n'+req.body.message //, // plaintext body
+        text: text // plaintext body
     };
 
     transporter.sendMail(mailOptions, function(error, info){
@@ -33,7 +33,8 @@ function sendMail(req, res) {
             res.json({yo: 'error'});
         }else{
             console.log('Message sent: ' + info.response);
-            res.json({yo: info.response});
+            //res.json({yo: info.response});
+            res.redirect('/');
         };
     });
 
