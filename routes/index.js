@@ -13,8 +13,8 @@ function sendMail(req, res) {
     var transporter = nodemailer.createTransport({
         service: 'Gmail',
         auth: {
-            user: 'umang.chaudhary2015@vit.ac.in', // Your email id
-            pass: '78654701' // Your password
+            user: 'ieeecs@vit.ac.in', // Your email id
+            pass: 'password' // Your password
         }
     });
 
@@ -22,7 +22,7 @@ function sendMail(req, res) {
 
     var mailOptions = {
         from: req.body.email, // sender address
-        to: 'umang.chaudhary2015@vit.ac.in', // list of receivers
+        to: 'ieeecs@vit.ac.in', // list of receivers
         subject: req.body.subject, // Subject line
         text: text+'\n'+req.body.message //, // plaintext body
     };
