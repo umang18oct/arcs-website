@@ -146,17 +146,14 @@ input[type=text]:focus::-webkit-input-placeholder {
   padding: 3% 10%;
 }
 #ws1, #ws2, #ws3 {
+  margin-left: 7%;
   padding: 4% 0;
   border: 3px solid #1f2845!important;
   margin-top: 3%;
   height: 40%;
 }
 #ws1{
-  margin-left:5.2%;
   background-image: url('../images/ws1.jpg');
-}
-#ws1, #ws2 {
-  margin-right: 7%;
 }
 #ws2{
   background-image: url('../images/ws2.jpeg');
