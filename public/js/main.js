@@ -1,3 +1,12 @@
+/*function letTheLoaderRoll(){
+  setTimeout(rollingLoader,3000);
+}
+
+function rollingLoader() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+*/
 function init_map(){
   var myOptions = {
     zoom:15,
