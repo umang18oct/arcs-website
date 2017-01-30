@@ -4,7 +4,7 @@ body {
   font-size: 14px;
   overflow-y: auto;
   overflow-x: hidden;
-
+  font-family: 'Montserrat', sans-serif;
 }
 a {
   color: #00B7FF;
@@ -27,63 +27,35 @@ a {
   top: 3%;
   left: 44%;
 }
-
-/*/
-.navbar-right li {
-
-  padding-left:25px;
-
-}
-*/
 .navbar-collapse .navbar-right  {
-
   font-size: 15px;
-
-
 }
-
 .bg1 .text {
-  width:58%;
+  width:54%;
   margin:auto;
   border:2px solid #00e6ac;
-
 }
-
-
 .navbar-collapse ul li a:hover {
 color:#333;
 }
-
-
 .ieee  {
    width: 20%;
    margin: auto;
    background-color:#6666ff;
    color:white;
    margin-top:-10px;
-
    font-size: 15px;
-
 }
 .glyphicon {
 font-size:17px;
 }
-
 .bg2  {
   height:60%;
   width:100%;
 }
-
-
 .content {
-
   margin-right:50px;
-
-
 }
-
-
-
 .bg1
 {
   z-index:100;
@@ -91,21 +63,16 @@ font-size:17px;
   width:100%;
   top:200px;
 }
-
 .bg1 p {
   color:white;
 }
-
 .bg1 h1
 {
   color:white;
 }
-
 .bg3 {
   height:50%;
 }
-
-
 /*bg4*/
 .bg4 {
   height:50%;
@@ -113,17 +80,16 @@ font-size:17px;
   background-color:#1F2945;
   color:white;
 }
-
  #para {
 
 font-size:17px;
 word-spacing: 4px;
-}
 
+
+}
 .bg4 .content {
 
 }
-
  #contact {
   margin-right:0px;
   color: white;
@@ -131,18 +97,17 @@ word-spacing: 4px;
   background-color: #1f2845;
 }
 #contact input[type="text"],input[type="submit"] {
-  padding: 20px;
-  margin-bottom: 15px;
+  padding: 5%;
+  margin-bottom: 3%;
   padding-bottom: 0;
   border: 0;
   background-color: rgba(31, 40, 69, 1);
   text-align: left;
-  margin-right: 10px;
+  margin-right: 2%;
   color: white;
   vertical-align: bottom;
-  font-size: 18px;
+  font-size: 16px;
 }
-
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: white;
 }
@@ -166,13 +131,12 @@ word-spacing: 4px;
 }
 input[type=text]:focus {
     outline: 0;
-
 }
 input[type=text]:focus::-webkit-input-placeholder {
     color: transparent;
 }
 #details {
-  font-size: 20px;
+  font-size: 18px;
   padding-left: 10%;
 }
 #footer {
@@ -185,14 +149,18 @@ input[type=text]:focus::-webkit-input-placeholder {
   padding: 3% 10%;
 }
 #ws1, #ws2, #ws3 {
-  width: 25%;
-  border: 2px solid #1f2845 !important;
+  margin-left: 7%;
+  padding: 4% 0;
+  border: 3px solid #1f2845!important;
   margin-top: 3%;
   height: 40%;
 }
 #ws1{
-  margin-left:5.2%;
+  background-image: url('../images/ws1.jpg');
 }
-#ws1, #ws2 {
-  margin-right: 7%;
+#ws2{
+  background-image: url('../images/ws2.jpeg');
+}
+#ws3{
+  background-image: url("../images/ws3.jpg");
 }
