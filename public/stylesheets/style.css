@@ -190,21 +190,27 @@ input[type=text]:focus::-webkit-input-placeholder {
   color: white;
   background-color: #0f1523;
 }
-.contactIcons, .fa {
+.contactIcons, .footerIcons {
   color: white;
 }
-.contactIcons:hover, .fa:hover {
+.contactIcons:hover, .footerIcons:hover {
   color: #00b7ff;
 }
 #workshops {
-  padding: 3% 10%;
+  margin-bottom: 4vh;
+  background-color: white;
 }
+#workshops h1{
+  font-size: 44px;
+}
+
 #ws1, #ws2, #ws3 {
-  margin-left: 7%;
-  padding: 4% 0;
+  width: 80%;
+  padding: 6% 0;
   border: 3px solid #1f2845!important;
   margin-top: 3%;
-  height: 40%;
+  height: 60vh;
+  background-color: #00b7ff;
 }
 #ws1{
   background-image: url('../images/ws1.jpg');
@@ -216,7 +222,7 @@ input[type=text]:focus::-webkit-input-placeholder {
   background-image: url("../images/ws3.jpg");
 }
 @media only screen and (max-width: 400px) {
-  body{
+  nav{
     overflow-x:hidden;
   }
 }
