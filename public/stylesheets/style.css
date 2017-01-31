@@ -5,6 +5,7 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
+
 }
 a {
   color: #00B7FF;
@@ -27,17 +28,30 @@ a {
   top: 3%;
   left: 44%;
 }
+
+/*navbar li hover*/
+.navbar-collapse .navbar-right li a {
+  transition: .3s ease-in all;
+}
+
+
+.navbar-collapse .navbar-right li a:hover {
+
+    background-color: #1F2945;
+
+}
+
 .navbar-collapse .navbar-right  {
   font-size: 15px;
 }
 .bg1 .text {
   width:54%;
+  min-width:60%;
+
   margin:auto;
   border:2px solid #00e6ac;
 }
-.navbar-collapse ul li a:hover {
-color:#333;
-}
+
 .ieee  {
    width: 20%;
    margin: auto;
@@ -83,7 +97,8 @@ font-size:17px;
  #para {
 
 font-size:17px;
-word-spacing: 4px;
+/*word-spacing: 4px;*/
+text-align:justify;
 
 
 }
