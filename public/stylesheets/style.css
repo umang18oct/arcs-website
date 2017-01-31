@@ -6,6 +6,9 @@ body {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
 }
+.image{
+  position: relative;
+}
 a {
   color: #00B7FF;
 }
