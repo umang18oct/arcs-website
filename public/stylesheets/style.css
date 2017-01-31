@@ -24,15 +24,22 @@ a {
 #map h2 {
   z-index: 99;
   position: absolute;
-  left:44.2%;
+  left:43.2%;
   top: 3%;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 700px) {
   #map h2 {
-    left:30%;
+    left:35%;
     top:1%;
   }
 }
+@media only screen and (max-width: 500px) {
+  #map h2 {
+    left:26%;
+    top:1%;
+  }
+}
+
 
 /*navbar li hover*/
 .navbar-collapse .navbar-right li a {
