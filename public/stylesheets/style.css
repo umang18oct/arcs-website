@@ -5,7 +5,6 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
-
 }
 a {
   color: #00B7FF;
@@ -25,8 +24,14 @@ a {
 #map h2 {
   z-index: 99;
   position: absolute;
+  left:44.2%;
   top: 3%;
-  left: 44%;
+}
+@media only screen and (max-width: 400px) {
+  #map h2 {
+    left:30%;
+    top:1%;
+  }
 }
 
 /*navbar li hover*/
@@ -111,7 +116,7 @@ text-align:justify;
   padding: 3% 8%;
   background-color: #1f2845;
 }
-#contact input[type="text"],input[type="submit"] {
+#contact input[type="text"] {
   padding: 5%;
   margin-bottom: 3%;
   padding-bottom: 0;
@@ -144,6 +149,24 @@ text-align:justify;
 #subject, #message {
   width: 92%;
 }
+@media only screen and (max-width: 768px) {
+  #name, #email {
+    width:92%;
+  }
+}
+#send {
+  margin-top: 3%;
+  background-color: rgba(31, 40, 69, 1);
+  border: 2px solid white;
+  border-radius: 20px;
+  vertical-align: bottom;
+  padding: 2%;
+}
+#send:hover {
+  background-color: #00b7ff;
+  border-color: #1f2845;
+  color: #1f2845;
+}
 input[type=text]:focus {
     outline: 0;
 }
@@ -159,6 +182,12 @@ input[type=text]:focus::-webkit-input-placeholder {
   padding: 2% 0;
   color: white;
   background-color: #0f1523;
+}
+.contactIcons, .fa {
+  color: white;
+}
+.contactIcons:hover, .fa:hover {
+  color: #00b7ff;
 }
 #workshops {
   padding: 3% 10%;
@@ -178,4 +207,9 @@ input[type=text]:focus::-webkit-input-placeholder {
 }
 #ws3{
   background-image: url("../images/ws3.jpg");
+}
+@media only screen and (max-width: 400px) {
+  body{
+    overflow-x:hidden;
+  }
 }
