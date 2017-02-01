@@ -24,11 +24,12 @@ function sendMail(req, res) {
       }
     });
 
-    var text = 'Hello! from \t IEEE - Computer Society\n Thank you for contacting us. Will reach to you soon.'; 
+    var text = 'Hello! from \t IEEE - Computer Society\n Thank you for contacting us. Will reach to you soon.';
+    var email = process.env.EMAIL_ID;
     //console.log(process.env.EMAIL_ID);
     //console.log(process.env.EMAIL_PASS);
     var mailOptions = {
-        from: process.env.EMAIL_ID, // sender address
+        from: email, // sender address
         to: req.body.email, // list of receivers
         subject: req.body.subject, // Subject line
         text: text // plaintext body
