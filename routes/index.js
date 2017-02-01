@@ -38,7 +38,7 @@ function sendMail(req, res) {
     transporter.sendMail(mailOptions, function(error, info){
         if(error){
             console.log(error);
-            res.json({yo: 'error'});
+            res.json({Please: 'Try Again!'});
         }else{
             console.log('Message sent: ' + info.response);
             //res.json({yo: info.response});
