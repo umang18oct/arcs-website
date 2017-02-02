@@ -6,7 +6,7 @@ body {
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
 }
-.image{
+.image {
   position: relative;
 }
 a {
@@ -40,6 +40,12 @@ a {
   #map h2 {
     left:26%;
     top:1%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #img3 {
+    padding:0;
+    margin-top:-10vh;
   }
 }
 /*navbar li hover*/
@@ -147,6 +153,11 @@ font-size:17px;
     width:92%;
   }
 }
+@media only screen and (max-width: 768px) {
+  .para {
+    font-size:10px;
+  }
+}
 #send {
   margin-top: 3%;
   background-color: rgba(31, 40, 69, 1);
@@ -161,10 +172,10 @@ font-size:17px;
   color: #1f2845;
 }
 input[type=text]:focus {
-    outline: 0;
+  outline: 0;
 }
 input[type=text]:focus::-webkit-input-placeholder {
-    color: transparent;
+  color: transparent;
 }
 #details {
   font-size: 18px;
@@ -189,7 +200,11 @@ input[type=text]:focus::-webkit-input-placeholder {
 #workshops h1{
   font-size: 44px;
 }
-
+@media only screen and (max-width: 500px) {
+  #workshops{
+    font-size: 30px;
+  }
+}
 #ws1, #ws2, #ws3 {
   width: 80%;
   padding: 6% 0;
@@ -211,4 +226,11 @@ input[type=text]:focus::-webkit-input-placeholder {
   nav{
     overflow-x:hidden;
   }
+}
+.i1 {
+  color:black;
+  opacity:0.7;
+}
+.i1:hover {
+  color:#00b7ff;
 }
