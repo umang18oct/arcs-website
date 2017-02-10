@@ -94,6 +94,11 @@ font-size:17px;
 .bg1 h1{
   color:white;
 }
+@media only screen and (max-width: 700px) {
+  #image2 {
+    display: none;
+  }
+}
 .bg3 {
   height:50%;
 }
@@ -104,10 +109,28 @@ font-size:17px;
   background-color:#1F2945;
   color:white;
 }
+#bg4small{
+  display: none;
+}
+@media only screen and (max-width: 700px) {
+  #bg4 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #bg4small {
+    display: block;
+  }
+}
  #para {
    font-size:17px;
    /*word-spacing: 4px;*/
    text-align:justify;
+}
+@media only screen and (max-width: 700px) {
+  #para {
+    font-size:14px;
+  }
 }
  #contact {
   margin-right:0px;
@@ -162,7 +185,7 @@ font-size:17px;
   margin-top: 3%;
   background-color: rgba(31, 40, 69, 1);
   border: 2px solid white;
-  border-radius: 20px;
+  border-radius: 10px;
   vertical-align: bottom;
   padding: 2%;
 }
@@ -205,7 +228,13 @@ input[type=text]:focus::-webkit-input-placeholder {
     font-size: 30px;
   }
 }
-#ws1, #ws2, #ws3 {
+.card{
+  width: 318px;
+  padding-bottom: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin-top: 10px;
+}
+/*#ws1, #ws2, #ws3 {
   width: 80%;
   padding: 6% 0;
   border: 3px solid #1f2845!important;
@@ -221,7 +250,7 @@ input[type=text]:focus::-webkit-input-placeholder {
 }
 #ws3{
   background-image: url("../images/ws3.jpg");
-}
+}*/
 @media only screen and (max-width: 400px) {
   nav{
     overflow-x:hidden;

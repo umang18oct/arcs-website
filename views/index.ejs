@@ -71,7 +71,7 @@
       </div>
     </div>
     <!--bg2-->
-    <div class="bg2">
+    <div class="bg2" id="bg2">
       <div class="row">
         <div class="col-lg-7 col-md-7 col-sm-7 first">
           <div class="content" style="margin:35px;display:block">
@@ -103,28 +103,69 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-5  col-md-5 col-sm-5 image2">
+        <div class="col-lg-5  col-md-5 col-sm-5 image2" id="image2">
           <img src="/images/table.jpg" alt='' style="width:100%">
         </div>
       </div><!--end row-->
     </div><!--end bg2-->
+    <!--bg2-->
     <!--image 3-->
     <div class="bg3">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-          <img src="/images/image3.jpg" style="height:380px;width:100%;filter: grayscale(80%) contrast(70%) brightness(70%) ;  " >
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="/images/image3.jpg" style="height:380px;width:100%;filter: grayscale(80%) contrast(70%) brightness(70%) ;  " >
+                <div class="carousel-caption">
+                  <h2>ARCS</h2>
+                </div>
+              </div>
+              <div class="item">
+                <img src="/images/image3.jpg" style="height:380px;width:100%;filter: grayscale(80%) contrast(70%) brightness(70%) ;  " >
+                <div class="carousel-caption">
+                  <h2>ARCS</h2>
+                </div>
+              </div>
+              <div class="item">
+                <img src="/images/image3.jpg" style="height:380px;width:100%;filter: grayscale(80%) contrast(70%) brightness(70%) ;  " >
+                <div class="carousel-caption">
+                  <h2>ARCS</h2>
+                </div>
+              </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
       </div>
     </div> <!--end bg3-->
     <!--bg4-->
-    <div class="bg4" id="bg4">
+    <div class="bg4" id="bg4" style="background-color:white;">
       <div class="row">
-        <div class="col-lg-7 col-md-7 col-sm-12">
-          <div class="content" style="margin:6%;margin-bottom:0px">
+        <div class="col-lg-5 col-md-5 col-sm-12" id='img3' style="background-color:#1f2845;">
+          <img src="/images/people.png" style="width:100%;padding:13vh 0 ;"  alt=''>
+        </div>
+        <div class="col-lg-7 col-md-7 col-sm-12" style="color:black;">
+          <div class="content" style="margin:6%;margin-bottom:0px;">
             <p style="font-size:17px;color:#6666ff">ABOUT </p>
             <h1 >IEEE-CS VIT<h1>
             <br>
-            <p id="para" style="font-size:18px">
+            <p id="para" style="font-size:17px;opacity:0.7;">
               IEEE Computer Society has long been stationed among the garrisons
               of computing power and knowledge that humankind has come to accumulate
               till date. Our Student chapter is one among 200 such organizations worldwide,
@@ -139,23 +180,85 @@
             </p>
          </div>
        </div>
-       <div class="col-lg-5 col-md-5 col-sm-12" id='img3'>
-         <img src="/images/people.png" style="width:100%;padding:13vh 0 ;"  alt=''>
+      </div>
+    </div><!--end bg4-->
+    <!--bg4-->
+    <div class="bg4" id="bg4small" style="background-color:white;">
+      <div class="row">
+        <div class="col-lg-7 col-md-7 col-sm-12" style="color:black; padding-bottom:13vh;">
+          <div class="content" style="margin:6%;margin-bottom:0px;">
+            <p style="font-size:17px;color:#6666ff">ABOUT </p>
+            <h1 >IEEE-CS VIT<h1>
+            <br>
+            <p id="para" style="opacity:0.7;">
+              IEEE Computer Society has long been stationed among the garrisons
+              of computing power and knowledge that humankind has come to accumulate
+              till date. Our Student chapter is one among 200 such organizations worldwide,
+              and we strive to look at everything from a perspection that is always deemed different.
+              <br>
+              <br>
+              At VIT , this society aims at creating awarenesss about the new advances in the field of
+              Computer Science and imparting knowledge related to this field by conducting different
+              workshops and events throughout the semester. IT gives substancial benefit to all the
+              computer science enthusiasts as well as provides a support to other students to know about
+              the technology that is ruling the world today .
+            </p>
+         </div>
+       </div>
+       <div class="col-lg-5 col-md-5 col-sm-12" id='img3' style="background-color:#1f2845;">
+         <img src="/images/people.png" style="width:100%;"  alt=''>
        </div>
       </div>
     </div><!--end bg4-->
     <!-- Workshops -->
-    <div class="row jumbotron" id="workshops">
+    <div class="row jumbotron" id="workshops" >
       <center>
         <h1>WORKSHOPS</h1>
-        <div class='col-lg-4 col-md-4 col-sm-9'>
-          <div  id="ws1" class="ws">
-            <i class="fa fa-search-plus fa-3x"></i>
-            <br>
-            <h2> Search Engine Optimization </h2>
+          <div class="col-lg-4 col-md-4 col-sm-9 ws">
+            <div class="card">
+              <img class="card-img-top" src="/images/extra.svg" alt="Card image cap">
+              <div class="card-block">
+                <br>
+                <i class="fa fa-search-plus fa-3x"></i>
+                <br>
+                <h4 class="card-title">Search Engine Optimization</h4>
+                <br>
+                <br>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+            </div>
           </div>
-        </div>
-          <div class='col-lg-4 col-md-4 col-sm-9'>
+          <div class="col-lg-4 col-md-4 col-sm-9 ws">
+            <div class="card">
+              <img class="card-img-top" src="/images/extra.svg" alt="Card image cap">
+              <div class="card-block">
+                <br>
+                <i class="fa fa-wifi fa-3x"></i>
+                <br>
+                <h4 class="card-title">Internet Of Things</h4>
+                <br>
+                <br>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-9 ws">
+            <div class="card">
+              <img class="card-img-top" src="/images/extra.svg" alt="Card image cap">
+              <div class="card-block">
+                <br>
+                <i class="fa fa-lock fa-3x"></i>
+                <br>
+                <h4 class="card-title">Cyber Security</h4>
+                <br>
+                <br>
+                <a href="#" class="btn btn-primary">Know More</a>
+              </div>
+            </div>
+          </div>
+          <!--<div  id="ws1" >
+            <i class="fa fa-search-plus fa-3x"></i> -->
+          <!-- <div class='col-lg-4 col-md-4 col-sm-9'>
             <div  id="ws2" class="ws">
               <i class="fa fa-wifi fa-3x"></i>
               <br>
@@ -168,7 +271,7 @@
               <br>
               <h2> Cyber Security </h2>
           </div>
-        </div>
+        </div> -->
       </center>
     </div>
     <!-- Sponsorships -->
