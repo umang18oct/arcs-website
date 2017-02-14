@@ -14,7 +14,9 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+    <script src="/js/jquery.stacks.js"></script>
     <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBU8q43APiRX30mvOkWIoB_cuvMfvMddKg'></script>
+    <script src='/js/main.js' type='text/javascript'></script>
     <style>
       body{
           font-family: 'Montserrat', sans-serif;
@@ -323,40 +325,59 @@
                             Anish Singh Walia(loveeanish@gmail.com) GitHub : anishsingh20 -->
       </center>
     </div>
-    <script src='/js/main.js' type='text/javascript'></script>
-    <script src="/js/jquery.stacks.js"></script>
     <script>
       $('.x').stack();
       function stackChange(){
       if (window.innerWidth < 768){
-        document.getElementById("bg4").classList.remove("four x");
-        document.getElementById("workshops").classList.remove("five x");
-        // $("sponsorship").classList.remove("four x");
-        document.getElementById("contactLarge").classList.remove("six x");
-        
-        document.getElementById("img3").classList.add("four x");
-        document.getElementById("aboutSmall").classList.add("five x");
-        document.getElementById("workshopHeading").classList.add("six x");
-        document.getElementById("ws1").classList.add("seven x");
-        document.getElementById("ws2").classList.add("eight x");
-        document.getElementById("ws3").classList.add("nine x");
-        document.getElementById("map").classList.add("ten x");
-        document.getElementById("contact").classList.add("eleven x");
+        document.getElementById("bg4").classList.remove("four")
+        document.getElementById("bg4").classList.remove("x");
+        document.getElementById("contactLarge").classList.remove("six");
+        document.getElementById("contactLarge").classList.remove("x");
+        document.getElementById("workshops").classList.remove("five");
+        document.getElementById("workshops").classList.remove("x");
+
+        document.getElementById("img3").classList.add("four");
+        document.getElementById("img3").classList.add("x");
+        document.getElementById("aboutSmall").classList.add("five");
+        document.getElementById("aboutSmall").classList.add("x");
+        document.getElementById("workshopHeading").classList.add("six");
+        document.getElementById("workshopHeading").classList.add("x");
+        document.getElementById("ws1").classList.add("seven");
+        document.getElementById("ws1").classList.add("x");
+        document.getElementById("ws2").classList.add("eight");
+        document.getElementById("ws2").classList.add("x");
+        document.getElementById("ws3").classList.add("nine");
+        document.getElementById("ws3").classList.add("x");
+        document.getElementById("map").classList.add("ten");
+        document.getElementById("map").classList.add("x");
+        document.getElementById("contact").classList.add("eleven");
+        document.getElementById("contact").classList.add("x");
       }
       else {
-        document.getElementById("img3").classList.remove("four x");
-        document.getElementById("aboutSmall").classList.remove("five x");
-        document.getElementById("workshopHeading").classList.remove("six x");
-        document.getElementById("ws1").classList.remove("seven x");
-        document.getElementById("ws2").classList.remove("eight x");
-        document.getElementById("ws3").classList.remove("nine x");
-        document.getElementById("map").classList.remove("ten x");
-        document.getElementById("contact").classList.remove("eleven x");
+        document.getElementById("img3").classList.remove("four")
+        document.getElementById("img3").classList.remove("x");
+        document.getElementById("aboutSmall").classList.remove("five")
+        document.getElementById("aboutSmall").classList.remove("x");
+        document.getElementById("workshopHeading").classList.remove("six");
+        document.getElementById("workshopHeading").classList.remove("x");
+        document.getElementById("ws1").classList.remove("seven");
+        document.getElementById("ws1").classList.remove("x");
+        document.getElementById("ws2").classList.remove("eight");
+        document.getElementById("ws2").classList.remove("x");
+        document.getElementById("ws3").classList.remove("nine");
+        document.getElementById("ws3").classList.remove("x");
+        document.getElementById("map").classList.remove("ten");
+        document.getElementById("map").classList.remove("x");
+        document.getElementById("contact").classList.remove("eleven");
+         document.getElementById("contact").classList.remove("x");
 
-        document.getElementById("bg4").classList.add("four x");
-        document.getElementById("workshops").classList.add("five x");
+        document.getElementById("bg4").classList.add("four")
+        document.getElementById("bg4").classList.add("x");
+        document.getElementById("workshops").classList.add("five");
+        document.getElementById("workshops").classList.add("x");
         // $("sponsorship").classList.add("four x");
-        document.getElementById("contactLarge").classList.add("six x");
+        document.getElementById("contactLarge").classList.add("six");
+        document.getElementById("contactLarge").classList.add("x");
       }
     }
     </script>
