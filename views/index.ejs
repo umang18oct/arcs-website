@@ -16,7 +16,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
     <script src="/js/jquery.stacks.js"></script>
     <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBU8q43APiRX30mvOkWIoB_cuvMfvMddKg'></script>
-    <script src='/js/main.js' type='text/javascript'></script>
     <style>
       body{
           font-family: 'Montserrat', sans-serif;
@@ -24,7 +23,7 @@
     </style>
   </head>
   <!--<body onload="letTheLoaderRoll();"> -->
-    <body onresize="stackChange();" onload="stackChange();">
+  <body onresize="stackChange();" onload="stackChange();">
     <!-- LOADER -->
     <!-- <div id="loader">
       <div class="circle" style="text-align:center;vertical-align:middle;"></div>
@@ -55,331 +54,276 @@
         </div><!-- .navbar-collapse -->
       </div><!--Container-fluid end-->
     </nav>
-    <div class="one x">
-    <div class='image'>
-      <div src="/images/img1.jpg" style="width: 100vw;background-size: cover;z-index:1;height: 100vh;background-position: center;background-image: url(/images/img1.jpg);" alt="" id="img1"></div>
-      <!--bg1-->
-      <div class="bg1 text-center" style="position:absolute">
-        <div class="text">
-          <br>
-          <p style="color:white;font-size:15px">3rd, 4th & 5th March, 2017</p>
-          <hr style="width:80%;border:1px solid #00e6ac">
-          <h1 class="animated fadeInUp"style="font-size:44px;">ARCS'17<h1>
-          <p style="color:white;font-size:18px">Accrete your knowledge</p>
-          <br>
-        </div>
-        <div class="ieee text-center">
-          <p>IEEE-CS VIT</p>
-        </div>
-        <!--end bg1-->
-        <h3 class="text-center" style="color:white;font-size:17px"><i>In collaboration  with <br> <span style="font-size:20px">SCOPE</span></i></h3>
-      </div>
-    </div>
-    </div>
-    <!--bg2-->
-    <div class="two x" style="background-color:white">
-    <div class="bg2" id="bg2" style="height:97vh;margin-top:3vh;">
-      <div class="row">
-        <div class="col-lg-7 col-md-7 col-sm-7 first">
-          <div class="content" style="margin:25px 30px;display:block;padding-top:10vh;">
-            <p style="color:#6666ff;text-align:justify">ABOUT THE EVENT</p>
-            <h1 style="text-align:justify">ARCS'17<h1>
-            <p style="font-size:16px;opacity:0.7;padding:5px;text-align:justify">
-              ARCS'17 is technical colloquium which will aim at improving the technical knowledge of
-              the young technical minds who are a part of this institution.
-              For  Achieving  the  same, three workshops will be hosted by our team.
-              The workshops will be headed by reknowned speakers from all over India.
-              These individuals have excellent knowledge about their respective subjects.
-            </p>
+    <div class="" id="section1">
+      <div class='image'>
+        <div src="/images/img1.jpg" style="width: 100vw;background-size: cover;z-index:1;height: 100vh;background-position: center;background-image: url(/images/img1.jpg);" alt="" id="img1"></div>
+        <!--bg1-->
+        <div class="bg1 text-center" style="position:absolute">
+          <div class="text">
             <br>
-            <p style="font-size:16px;opacity:0.7;text-align:justify">
-              <a href="https://www.vit.ac.in" target="_blank"><span class="glyphicon glyphicon-map-marker i1"></span></a> Venue : Vellore Institute of Technology,Vellore
-            </p>
-            <p style="font-size:16px;opacity:0.7;text-align:justify">
-              <a href="#"><span class="glyphicon glyphicon-calendar i1"></span></a>   Date : 3rd , 4th and 5th of March 2017
-            </p>
-            <p style="font-size:16px;opacity:0.7;text-align:justify">
-              <a href="#"><span class="glyphicon glyphicon-bullhorn i1"></span></a>  Total number of participants expected : 1000
-            </p>
-            <p style="font-size:16px;opacity:0.7;text-align:justify">
-              <a href="https://www.ieeecsvit.com" target="_blank"><span class="glyphicon glyphicon-tent i1"></span></a> Organising Agency :
-              <ul style="font-size:16px;opacity:0.7;text-align:justify">
-                <li>IEEE Computer Society ,VIT</li>
-                <li>In collaboration with SCOPE(School of Computer Science and Engineering)</li>
-              </ul>
-            </p>
+            <p style="color:white;font-size:15px">3rd, 4th & 5th March, 2017</p>
+            <hr style="width:80%;border:1px solid #00e6ac">
+            <h1 class="animated fadeInUp"style="font-size:44px;">ARCS'17<h1>
+              <p style="color:white;font-size:18px">Accrete your knowledge</p>
+              <br>
+            </div>
+            <div class="ieee text-center">
+              <p>IEEE-CS VIT</p>
+            </div>
+            <!--end bg1-->
+            <h3 class="text-center" style="color:white;font-size:17px"><i>In collaboration  with <br> <span style="font-size:20px">SCOPE</span></i></h3>
           </div>
         </div>
-        <div class="col-lg-5  col-md-5 col-sm-5 image2" id="image2">
-          <img src="/images/table.jpg" alt='' style="width:100%;height:97vh">
-        </div>
-      </div><!--end row-->
-    </div><!--end bg2-->
-    <!--bg2-->
-  </div>
-    <!--image 3-->
-    <div class="three x">
-    <div class="bg3" style="height:97vh;margin-top:3vh;">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="/images/image3.jpg" style="height:98vh;width:100%;filter: grayscale(80%) contrast(70%) brightness(70%) ;  " >
-                <div class="carousel-caption">
-                  <h2>ARCS</h2>
+      </div>
+      <!--bg2-->
+      <div class="" style="background-color:white" id="section2">
+        <div class="bg2" id="bg2" style="height:97vh;margin-top:3vh;">
+          <div class="row">
+            <div class="col-lg-7 col-md-7 col-sm-7 first">
+              <div class="content" style="margin:25px 30px;display:block;padding-top:10vh;">
+                <p style="color:#6666ff;text-align:justify">ABOUT THE EVENT</p>
+                <h1 style="text-align:justify">ARCS'17<h1>
+                  <p style="font-size:16px;opacity:0.7;padding:5px;text-align:justify">
+                    ARCS'17 is technical colloquium which will aim at improving the technical knowledge of
+                    the young technical minds who are a part of this institution.
+                    For  Achieving  the  same, three workshops will be hosted by our team.
+                    The workshops will be headed by reknowned speakers from all over India.
+                    These individuals have excellent knowledge about their respective subjects.
+                  </p>
+                  <br>
+                  <p style="font-size:16px;opacity:0.7;text-align:justify">
+                    <a href="https://www.vit.ac.in" target="_blank"><span class="glyphicon glyphicon-map-marker i1"></span></a> Venue : Vellore Institute of Technology,Vellore
+                  </p>
+                  <p style="font-size:16px;opacity:0.7;text-align:justify">
+                    <a href="#"><span class="glyphicon glyphicon-calendar i1"></span></a>   Date : 3rd , 4th and 5th of March 2017
+                  </p>
+                  <p style="font-size:16px;opacity:0.7;text-align:justify">
+                    <a href="#"><span class="glyphicon glyphicon-bullhorn i1"></span></a>  Total number of participants expected : 1000
+                  </p>
+                  <p style="font-size:16px;opacity:0.7;text-align:justify">
+                    <a href="https://www.ieeecsvit.com" target="_blank"><span class="glyphicon glyphicon-tent i1"></span></a> Organising Agency :
+                    <ul style="font-size:16px;opacity:0.7;text-align:justify">
+                      <li>IEEE Computer Society ,VIT</li>
+                      <li>In collaboration with SCOPE(School of Computer Science and Engineering)</li>
+                    </ul>
+                  </p>
                 </div>
               </div>
-              <div class="item">
-                <img src="/images/image3.jpg" style="height:98vh;width:100%;filter: grayscale(80%) contrast(70%) brightness(70%) ;  " >
-                <div class="carousel-caption">
-                  <h2>ARCS</h2>
+              <div class="col-lg-5  col-md-5 col-sm-5 image2" id="image2">
+                <img src="/images/table.jpg" alt='' style="width:100%;height:97vh">
+              </div>
+            </div><!--end row-->
+          </div><!--end bg2-->
+          <!--bg2-->
+        </div>
+        <!--image 3-->
+        <div id="carousalMain">
+          <div class="bg3" style="height:97vh;margin-top:3vh;">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                  </ol>
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <img src="/images/image3.jpg" style="height:98vh;width:100%;filter: grayscale(80%) contrast(70%) brightness(70%) ;  " >
+                      <div class="carousel-caption">
+                        <h2>ARCS</h2>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="/images/image3.jpg" style="height:98vh;width:100%;filter: grayscale(80%) contrast(70%) brightness(70%) ;  " >
+                      <div class="carousel-caption">
+                        <h2>ARCS</h2>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="/images/image3.jpg" style="height:98vh;width:100%;filter: grayscale(80%) contrast(70%) brightness(70%) ;  " >
+                      <div class="carousel-caption">
+                        <h2>ARCS</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
                 </div>
               </div>
-              <div class="item">
-                <img src="/images/image3.jpg" style="height:98vh;width:100%;filter: grayscale(80%) contrast(70%) brightness(70%) ;  " >
-                <div class="carousel-caption">
-                  <h2>ARCS</h2>
+            </div>
+          </div> <!--end bg3-->
+        </div>
+        <!--bg4-->
+        <div class="bg4" id="bg4" style="background-color:white">
+          <div class="row" style="text-align:left;">
+            <div class="col-lg-5 col-md-5 col-sm-12" id='img3' style="background-color:#1f2845;">
+              <img src="/images/people.png" style="width:100%;padding:13vh 0 ;"  alt=''>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12" style="color:black;">
+              <div class="content" style="margin:0 6%;margin-bottom:0px;padding-top:10vh;">
+                <p style="font-size:17px;color:#6666ff">ABOUT </p>
+                <h1 >IEEE-CS VIT<h1>
+                <br>
+                <p id="para" style="font-size:17px;opacity:0.7;">
+                  IEEE Computer Society has long been stationed among the garrisons
+                  of computing power and knowledge that humankind has come to accumulate
+                  till date. Our Student chapter is one among 200 such organizations worldwide,
+                  and we strive to look at everything from a perspection that is always deemed different.
+                  <br>
+                  <br>
+                  At VIT , this society aims at creating awarenesss about the new advances in the field of
+                  Computer Science and imparting knowledge related to this field by conducting different
+                  workshops and events throughout the semester. IT gives substancial benefit to all the
+                  computer science enthusiasts as well as provides a support to other students to know about
+                  the technology that is ruling the world today .
+                </p>
+              </div>
+            </div>
+          </div>
+        </div><!--end bg4-->
+        <!--bg4-->
+        <div class="bg4" id="bg4small" style="background-color:white">
+          <div class="row" style="text-align:left;">
+            <div class="col-sm-12 col-xs-12" id='img3' style="background-color:#1f2845;">
+              <img src="/images/people.png" style="width:100%;padding:13vh 0;"  alt=''>
+            </div>
+            <div class="col-sm-12 col-xs-12" style="color:black;" id="aboutSmall">
+              <div class="content" style="margin:0 6%;margin-bottom:0px;padding-top:10vh;">
+                <p style="font-size:17px;color:#6666ff">ABOUT </p>
+                <h1 >IEEE-CS VIT<h1>
+                <br>
+                <p id="para" style="font-size:17px;opacity:0.7;">
+                  IEEE Computer Society has long been stationed among the garrisons
+                  of computing power and knowledge that humankind has come to accumulate
+                  till date. Our Student chapter is one among 200 such organizations worldwide,
+                  and we strive to look at everything from a perspection that is always deemed different.
+                  <br>
+                  <br>
+                  At VIT , this society aims at creating awarenesss about the new advances in the field of
+                  Computer Science and imparting knowledge related to this field by conducting different
+                  workshops and events throughout the semester. IT gives substancial benefit to all the
+                  computer science enthusiasts as well as provides a support to other students to know about
+                  the technology that is ruling the world today .
+                </p>
+              </div>
+            </div>
+          </div>
+        </div><!--end bg4-->
+        <!-- Workshops -->
+        <div class="row jumbotron" id="workshops">
+          <center>
+            <div id="workshopHeading">
+              <h1>WORKSHOPS</h1>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-9 col-xs-9 ws" style="" id="ws1">
+              <div class="card">
+                <img class="card-img-top" src="/images/extra.svg" alt="Card image cap">
+                <div class="card-block">
+                  <br>
+                  <i class="fa fa-search-plus fa-3x"></i>
+                  <br>
+                  <h4 class="card-title">Search Engine Optimization</h4>
+                  <br>
+                  <br>
+                  <a href="#" class="btn btn-primary">Know More</a>
                 </div>
               </div>
             </div>
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div> <!--end bg3-->
-  </div>
-    <!--bg4-->
-    <div class="bg4" id="bg4" style="background-color:white">
-      <div class="row" style="text-align:left;">
-        <div class="col-lg-5 col-md-5 col-sm-12" id='img3' style="background-color:#1f2845;">
-          <img src="/images/people.png" style="width:100%;padding:13vh 0 ;"  alt=''>
-        </div>
-        <div class="col-lg-7 col-md-7 col-sm-12" style="color:black;">
-          <div class="content" style="margin:0 6%;margin-bottom:0px;padding-top:10vh;">
-            <p style="font-size:17px;color:#6666ff">ABOUT </p>
-            <h1 >IEEE-CS VIT<h1>
-            <br>
-            <p id="para" style="font-size:17px;opacity:0.7;">
-              IEEE Computer Society has long been stationed among the garrisons
-              of computing power and knowledge that humankind has come to accumulate
-              till date. Our Student chapter is one among 200 such organizations worldwide,
-              and we strive to look at everything from a perspection that is always deemed different.
-              <br>
-              <br>
-              At VIT , this society aims at creating awarenesss about the new advances in the field of
-              Computer Science and imparting knowledge related to this field by conducting different
-              workshops and events throughout the semester. IT gives substancial benefit to all the
-              computer science enthusiasts as well as provides a support to other students to know about
-              the technology that is ruling the world today .
-            </p>
-         </div>
-       </div>
-      </div>
-    </div><!--end bg4-->
-    <!--bg4-->
-    <div class="bg4" id="bg4small" style="background-color:white">
-      <div class="row" style="text-align:left;">
-        <div class="col-sm-12 col-xs-12" id='img3' style="background-color:#1f2845;">
-          <img src="/images/people.png" style="width:100%;padding:13vh 0;"  alt=''>
-        </div>
-        <div class="col-sm-12 col-xs-12" style="color:black;" id="aboutSmall">
-          <div class="content" style="margin:0 6%;margin-bottom:0px;padding-top:10vh;">
-            <p style="font-size:17px;color:#6666ff">ABOUT </p>
-            <h1 >IEEE-CS VIT<h1>
-            <br>
-            <p id="para" style="font-size:17px;opacity:0.7;">
-              IEEE Computer Society has long been stationed among the garrisons
-              of computing power and knowledge that humankind has come to accumulate
-              till date. Our Student chapter is one among 200 such organizations worldwide,
-              and we strive to look at everything from a perspection that is always deemed different.
-              <br>
-              <br>
-              At VIT , this society aims at creating awarenesss about the new advances in the field of
-              Computer Science and imparting knowledge related to this field by conducting different
-              workshops and events throughout the semester. IT gives substancial benefit to all the
-              computer science enthusiasts as well as provides a support to other students to know about
-              the technology that is ruling the world today .
-            </p>
-         </div>
-       </div>
-      </div>
-    </div><!--end bg4-->
-      <!-- Workshops -->
-    <div class="row jumbotron" id="workshops">
-      <center>
-        <div id="workshopHeading">
-          <h1>WORKSHOPS</h1>
-        </div>
-          <div class="col-lg-4 col-md-4 col-sm-9 col-xs-9 ws" style="" id="ws1">
-            <div class="card">
-              <img class="card-img-top" src="/images/extra.svg" alt="Card image cap">
-              <div class="card-block">
-                <br>
-                <i class="fa fa-search-plus fa-3x"></i>
-                <br>
-                <h4 class="card-title">Search Engine Optimization</h4>
-                <br>
-                <br>
-                <a href="#" class="btn btn-primary">Know More</a>
+            <div class="col-lg-4 col-md-4 col-sm-9 col-xs-9 ws" id="ws2">
+              <div class="card">
+                <img class="card-img-top" src="/images/extra.svg" alt="Card image cap">
+                <div class="card-block">
+                  <br>
+                  <i class="fa fa-wifi fa-3x"></i>
+                  <br>
+                  <h4 class="card-title">Internet Of Things</h4>
+                  <br>
+                  <br>
+                  <a href="#" class="btn btn-primary">Know More</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-9 col-xs-9 ws" id="ws2">
-            <div class="card">
-              <img class="card-img-top" src="/images/extra.svg" alt="Card image cap">
-              <div class="card-block">
-                <br>
-                <i class="fa fa-wifi fa-3x"></i>
-                <br>
-                <h4 class="card-title">Internet Of Things</h4>
-                <br>
-                <br>
-                <a href="#" class="btn btn-primary">Know More</a>
+            <div class="col-lg-4 col-md-4 col-sm-9 col-xs-9 ws" id="ws3">
+              <div class="card">
+                <img class="card-img-top" src="/images/extra.svg" alt="Card image cap">
+                <div class="card-block">
+                  <br>
+                  <i class="fa fa-lock fa-3x"></i>
+                  <br>
+                  <h4 class="card-title">Cyber Security</h4>
+                  <br>
+                  <br>
+                  <a href="#" class="btn btn-primary">Know More</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-9 col-xs-9 ws" id="ws3">
-            <div class="card">
-              <img class="card-img-top" src="/images/extra.svg" alt="Card image cap">
-              <div class="card-block">
-                <br>
-                <i class="fa fa-lock fa-3x"></i>
-                <br>
-                <h4 class="card-title">Cyber Security</h4>
-                <br>
-                <br>
-                <a href="#" class="btn btn-primary">Know More</a>
-              </div>
+          </center>
+        </div>
+        <!-- Sponsorships -->
+        <div class="row sr-only" id="sponsorship">
+        </div>
+        <!-- Map -->
+        <div id="contactLarge">
+          <center>
+            <div id="map">
+              <div id='gmap_canvas' style='height:40vh;width:100vw;'></div>
+              <h2> CONTACT US </h2>
+            </div>
+          </center>
+          <!-- Contact US -->
+          <div id='contact' class='row'  style="">
+            <h2> CONTACT US </h2>
+            <div class='col-lg-6 col-md-6 col-sm-12' id="contactForm">
+              <center>
+                <form action='/' method="post">
+                  <input type="text" placeholder="NAME" id="name" name="name">
+                  <input type="text" placeholder="EMAIL" id="email" name="email">
+                  <br>
+                  <input type="text" placeholder="SUBJECT" id="subject" name="subject">
+                  <br>
+                  <br>
+                  <input type="text" placeholder="MESSAGE" id="message" name="message">
+                  <br>
+                  <b><input type="submit" value="SEND" id="send"></b>
+                </form>
+              </center>
+            </div>
+            <div class='col-lg-6 col-md-6 col-sm-12' id="details">
+              <br>
+              <br>
+              <p><a href="https://www.vit.ac.in" target="_blank"><span class="glyphicon glyphicon-map-marker contactIcons"></span></a>  Venue - Vellore Institute of Technology, &nbsp; Vellore</p>
+              <p><a href="https://www.ieeecsvit.com" target="_blank"><span class="glyphicon glyphicon-globe contactIcons"></span></a>  www.ieeecsvit.com </p>
+              <p><a href="mailto:ieeecs@vit.ac.in" target="_blank"><span class="glyphicon glyphicon-envelope contactIcons"></span></a> ieeecs@vit.ac.in</p>
+              <p><a href="#"><span class="glyphicon glyphicon-earphone contactIcons" target="_blank"></span> </a>+91 9952599004</p>
             </div>
           </div>
-      </center>
-    </div>
-    <!-- Sponsorships -->
-    <div class="row sr-only" id="sponsorship">
-    </div>
-    <!-- Map -->
-    <div id="contactLarge">
-    <center>
-      <div id="map">
-        <div id='gmap_canvas' style='height:40vh;width:100vw;'></div>
-        <h2> CONTACT US </h2>
-      </div>
-    </center>
-    <!-- Contact US -->
-    <div id='contact' class='row'  style="">
-      <h2> CONTACT US </h2>
-      <div class='col-lg-6 col-md-6 col-sm-12' id="contactForm">
+        </div>
+      <!-- Footer -->
+      <div id="footer">
         <center>
-          <form action='/' method="post">
-            <input type="text" placeholder="NAME" id="name" name="name">
-            <input type="text" placeholder="EMAIL" id="email" name="email">
+            <a href="https://www.fb.com/ieeecsvit/" class="btn btn-social-icon btn-facebook" target="_blank">
+              <span class="fa fa-facebook fa-3x footerIcons"></span>
+            </a>
+            <a href="https://github.com/orgs/IEEECS-VIT/" class="btn btn-social-icon btn-github" target="_blank">
+              <span class="fa fa-github fa-3x footerIcons"></span>
+            </a>
             <br>
-            <input type="text" placeholder="SUBJECT" id="subject" name="subject">
-            <br>
-            <br>
-            <input type="text" placeholder="MESSAGE" id="message" name="message">
-            <br>
-            <b><input type="submit" value="SEND" id="send"></b>
-          </form>
+            <h4>&nbsp;IEEE - Computer Society, VIT Vellore</h4>
+            <!-- Made By Umang and Anish, contact us at ->
+                                Umang Chaudhary(umang18oct@gmail.com) GitHub : umang18oct
+                                Anish Singh Walia(loveeanish@gmail.com) GitHub : anishsingh20 -->
         </center>
       </div>
-      <div class='col-lg-6 col-md-6 col-sm-12' id="details">
-        <br>
-        <br>
-        <p><a href="https://www.vit.ac.in" target="_blank"><span class="glyphicon glyphicon-map-marker contactIcons"></span></a>  Venue - Vellore Institute of Technology, &nbsp; Vellore</p>
-        <p><a href="https://www.ieeecsvit.com" target="_blank"><span class="glyphicon glyphicon-globe contactIcons"></span></a>  www.ieeecsvit.com </p>
-        <p><a href="mailto:ieeecs@vit.ac.in" target="_blank"><span class="glyphicon glyphicon-envelope contactIcons"></span></a> ieeecs@vit.ac.in</p>
-        <p><a href="#"><span class="glyphicon glyphicon-earphone contactIcons" target="_blank"></span> </a>+91 9952599004</p>
-      </div>
-    </div>
-  </div>
-    <!-- Footer -->
-    <div id="footer">
-      <center>
-        <a href="https://www.fb.com/ieeecsvit/" class="btn btn-social-icon btn-facebook" target="_blank">
-          <span class="fa fa-facebook fa-3x footerIcons"></span>
-        </a>
-        <a href="https://github.com/orgs/IEEECS-VIT/" class="btn btn-social-icon btn-github" target="_blank">
-          <span class="fa fa-github fa-3x footerIcons"></span>
-        </a>
-        <br>
-        <h4>&nbsp;IEEE - Computer Society, VIT Vellore</h4>
-        <!-- Made By Umang and Anish, contact us at ->
-                            Umang Chaudhary(umang18oct@gmail.com) GitHub : umang18oct
-                            Anish Singh Walia(loveeanish@gmail.com) GitHub : anishsingh20 -->
-      </center>
-    </div>
-    <script>
-      $('.x').stack();
-      function stackChange(){
-      if (window.innerWidth < 768){
-        document.getElementById("bg4").classList.remove("four")
-        document.getElementById("bg4").classList.remove("x");
-        document.getElementById("contactLarge").classList.remove("six");
-        document.getElementById("contactLarge").classList.remove("x");
-        document.getElementById("workshops").classList.remove("five");
-        document.getElementById("workshops").classList.remove("x");
-
-        document.getElementById("img3").classList.add("four");
-        document.getElementById("img3").classList.add("x");
-        document.getElementById("aboutSmall").classList.add("five");
-        document.getElementById("aboutSmall").classList.add("x");
-        document.getElementById("workshopHeading").classList.add("six");
-        document.getElementById("workshopHeading").classList.add("x");
-        document.getElementById("ws1").classList.add("seven");
-        document.getElementById("ws1").classList.add("x");
-        document.getElementById("ws2").classList.add("eight");
-        document.getElementById("ws2").classList.add("x");
-        document.getElementById("ws3").classList.add("nine");
-        document.getElementById("ws3").classList.add("x");
-        document.getElementById("map").classList.add("ten");
-        document.getElementById("map").classList.add("x");
-        document.getElementById("contact").classList.add("eleven");
-        document.getElementById("contact").classList.add("x");
-      }
-      else {
-        document.getElementById("img3").classList.remove("four")
-        document.getElementById("img3").classList.remove("x");
-        document.getElementById("aboutSmall").classList.remove("five")
-        document.getElementById("aboutSmall").classList.remove("x");
-        document.getElementById("workshopHeading").classList.remove("six");
-        document.getElementById("workshopHeading").classList.remove("x");
-        document.getElementById("ws1").classList.remove("seven");
-        document.getElementById("ws1").classList.remove("x");
-        document.getElementById("ws2").classList.remove("eight");
-        document.getElementById("ws2").classList.remove("x");
-        document.getElementById("ws3").classList.remove("nine");
-        document.getElementById("ws3").classList.remove("x");
-        document.getElementById("map").classList.remove("ten");
-        document.getElementById("map").classList.remove("x");
-        document.getElementById("contact").classList.remove("eleven");
-         document.getElementById("contact").classList.remove("x");
-
-        document.getElementById("bg4").classList.add("four")
-        document.getElementById("bg4").classList.add("x");
-        document.getElementById("workshops").classList.add("five");
-        document.getElementById("workshops").classList.add("x");
-        // $("sponsorship").classList.add("four x");
-        document.getElementById("contactLarge").classList.add("six");
-        document.getElementById("contactLarge").classList.add("x");
-      }
-    }
-    </script>
+    <script src='/js/main.js' type='text/javascript'></script>
   </body>
-  </html>
+</html>
