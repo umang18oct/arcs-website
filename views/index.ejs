@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
     <!-- Latest compiled and minified JavaScript -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">   </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
     <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBU8q43APiRX30mvOkWIoB_cuvMfvMddKg'></script>
     <style>
@@ -22,7 +22,7 @@
     </style>
   </head>
   <!--<body onload="letTheLoaderRoll();"> -->
-    <body>
+    <body onresize="stackChange();" onload="stackChange();">
     <!-- LOADER -->
     <!-- <div id="loader">
       <div class="circle" style="text-align:center;vertical-align:middle;"></div>
@@ -53,8 +53,9 @@
         </div><!-- .navbar-collapse -->
       </div><!--Container-fluid end-->
     </nav>
+    <div class="one x">
     <div class='image'>
-      <div src="/images/img1.jpg" style="width: 100vw;background-size: cover;margin-top:30px;z-index:1;height: 98vh;background-position: center;background-image: url(/images/img1.jpg);" alt="" id="img1"></div>
+      <div src="/images/img1.jpg" style="width: 100vw;background-size: cover;z-index:1;height: 100vh;background-position: center;background-image: url(/images/img1.jpg);" alt="" id="img1"></div>
       <!--bg1-->
       <div class="bg1 text-center" style="position:absolute">
         <div class="text">
@@ -72,11 +73,13 @@
         <h3 class="text-center" style="color:white;font-size:17px"><i>In collaboration  with <br> <span style="font-size:20px">SCOPE</span></i></h3>
       </div>
     </div>
+    </div>
     <!--bg2-->
-    <div class="bg2" id="bg2" style="height:98vh">
+    <div class="two x" style="background-color:white">
+    <div class="bg2" id="bg2" style="height:97vh;margin-top:3vh;">
       <div class="row">
         <div class="col-lg-7 col-md-7 col-sm-7 first">
-          <div class="content" style="margin:35px;display:block">
+          <div class="content" style="margin:25px 30px;display:block;padding-top:10vh;">
             <p style="color:#6666ff;text-align:justify">ABOUT THE EVENT</p>
             <h1 style="text-align:justify">ARCS'17<h1>
             <p style="font-size:16px;opacity:0.7;padding:5px;text-align:justify">
@@ -106,13 +109,15 @@
           </div>
         </div>
         <div class="col-lg-5  col-md-5 col-sm-5 image2" id="image2">
-          <img src="/images/table.jpg" alt='' style="width:100%;height:98vh">
+          <img src="/images/table.jpg" alt='' style="width:100%;height:97vh">
         </div>
       </div><!--end row-->
     </div><!--end bg2-->
     <!--bg2-->
+  </div>
     <!--image 3-->
-    <div class="bg3">
+    <div class="three x">
+    <div class="bg3" style="height:97vh;margin-top:3vh;">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" >
@@ -156,14 +161,15 @@
         </div>
       </div>
     </div> <!--end bg3-->
+  </div>
     <!--bg4-->
     <div class="bg4" id="bg4" style="background-color:white">
-      <div class="row">
-        <div class="col-lg-5 col-md-5 col-sm-12" id='img3' style="background-color:#1f2845;height:98vh">
+      <div class="row" style="text-align:left;">
+        <div class="col-lg-5 col-md-5 col-sm-12" id='img3' style="background-color:#1f2845;">
           <img src="/images/people.png" style="width:100%;padding:13vh 0 ;"  alt=''>
         </div>
-        <div class="col-lg-7 col-md-7 col-sm-12" style="color:black;height:98vh">
-          <div class="content" style="margin:6%;margin-bottom:0px;">
+        <div class="col-lg-7 col-md-7 col-sm-12" style="color:black;">
+          <div class="content" style="margin:0 6%;margin-bottom:0px;padding-top:10vh;">
             <p style="font-size:17px;color:#6666ff">ABOUT </p>
             <h1 >IEEE-CS VIT<h1>
             <br>
@@ -185,14 +191,17 @@
       </div>
     </div><!--end bg4-->
     <!--bg4-->
-    <div class="bg4" id="bg4small" style="background-color:white;">
-      <div class="row">
-        <div class="col-lg-7 col-md-7 col-sm-12" style="color:black; padding-bottom:13vh;height:98vh">
-          <div class="content" style="margin:6%;margin-bottom:0px;">
+    <div class="bg4" id="bg4small" style="background-color:white">
+      <div class="row" style="text-align:left;">
+        <div class="col-sm-12 col-xs-12" id='img3' style="background-color:#1f2845;">
+          <img src="/images/people.png" style="width:100%;padding:13vh 0;"  alt=''>
+        </div>
+        <div class="col-sm-12 col-xs-12" style="color:black;" id="aboutSmall">
+          <div class="content" style="margin:0 6%;margin-bottom:0px;padding-top:10vh;">
             <p style="font-size:17px;color:#6666ff">ABOUT </p>
             <h1 >IEEE-CS VIT<h1>
             <br>
-            <p id="para" style="opacity:0.7;">
+            <p id="para" style="font-size:17px;opacity:0.7;">
               IEEE Computer Society has long been stationed among the garrisons
               of computing power and knowledge that humankind has come to accumulate
               till date. Our Student chapter is one among 200 such organizations worldwide,
@@ -207,16 +216,15 @@
             </p>
          </div>
        </div>
-       <div class="col-lg-5 col-md-5 col-sm-12" id='img3' style="background-color:#1f2845;height:98vh">
-         <img src="/images/people.png" style="width:100%;"  alt=''>
-       </div>
       </div>
     </div><!--end bg4-->
-    <!-- Workshops -->
-    <div class="row jumbotron" id="workshops" >
+      <!-- Workshops -->
+    <div class="row jumbotron" id="workshops">
       <center>
-        <h1>WORKSHOPS</h1>
-          <div class="col-lg-4 col-md-4 col-sm-9 ws" style="height:98vh">
+        <div id="workshopHeading">
+          <h1>WORKSHOPS</h1>
+        </div>
+          <div class="col-lg-4 col-md-4 col-sm-9 col-xs-9 ws" style="" id="ws1">
             <div class="card">
               <img class="card-img-top" src="/images/extra.svg" alt="Card image cap">
               <div class="card-block">
@@ -230,7 +238,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-9 ws">
+          <div class="col-lg-4 col-md-4 col-sm-9 col-xs-9 ws" id="ws2">
             <div class="card">
               <img class="card-img-top" src="/images/extra.svg" alt="Card image cap">
               <div class="card-block">
@@ -244,7 +252,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-9 ws">
+          <div class="col-lg-4 col-md-4 col-sm-9 col-xs-9 ws" id="ws3">
             <div class="card">
               <img class="card-img-top" src="/images/extra.svg" alt="Card image cap">
               <div class="card-block">
@@ -258,36 +266,21 @@
               </div>
             </div>
           </div>
-          <!--<div  id="ws1" >
-            <i class="fa fa-search-plus fa-3x"></i> -->
-          <!-- <div class='col-lg-4 col-md-4 col-sm-9'>
-            <div  id="ws2" class="ws">
-              <i class="fa fa-wifi fa-3x"></i>
-              <br>
-              <h2> Internet of Things </h2>
-            </div>
-          </div>
-          <div class='col-lg-4 col-md-4 col-sm-9' >
-            <div id="ws3" class="ws">
-              <i class="fa fa-lock fa-3x"></i>
-              <br>
-              <h2> Cyber Security </h2>
-          </div>
-        </div> -->
       </center>
     </div>
     <!-- Sponsorships -->
     <div class="row sr-only" id="sponsorship">
     </div>
     <!-- Map -->
+    <div id="contactLarge">
     <center>
       <div id="map">
-        <div id='gmap_canvas' style='height:60vh;width:100vw;'></div>
+        <div id='gmap_canvas' style='height:40vh;width:100vw;'></div>
         <h2> CONTACT US </h2>
       </div>
     </center>
     <!-- Contact US -->
-    <div id='contact' class='row'>
+    <div id='contact' class='row'  style="">
       <h2> CONTACT US </h2>
       <div class='col-lg-6 col-md-6 col-sm-12' id="contactForm">
         <center>
@@ -313,6 +306,7 @@
         <p><a href="#"><span class="glyphicon glyphicon-earphone contactIcons" target="_blank"></span> </a>+91 9952599004</p>
       </div>
     </div>
+  </div>
     <!-- Footer -->
     <div id="footer">
       <center>
@@ -330,5 +324,41 @@
       </center>
     </div>
     <script src='/js/main.js' type='text/javascript'></script>
+    <script src="/js/jquery.stacks.js"></script>
+    <script>
+      $('.x').stack();
+      function stackChange(){
+      if (window.innerWidth < 768){
+        document.getElementById("bg4").classList.remove("four x");
+        document.getElementById("workshops").classList.remove("five x");
+        // $("sponsorship").classList.remove("four x");
+        document.getElementById("contactLarge").classList.remove("six x");
+        
+        document.getElementById("img3").classList.add("four x");
+        document.getElementById("aboutSmall").classList.add("five x");
+        document.getElementById("workshopHeading").classList.add("six x");
+        document.getElementById("ws1").classList.add("seven x");
+        document.getElementById("ws2").classList.add("eight x");
+        document.getElementById("ws3").classList.add("nine x");
+        document.getElementById("map").classList.add("ten x");
+        document.getElementById("contact").classList.add("eleven x");
+      }
+      else {
+        document.getElementById("img3").classList.remove("four x");
+        document.getElementById("aboutSmall").classList.remove("five x");
+        document.getElementById("workshopHeading").classList.remove("six x");
+        document.getElementById("ws1").classList.remove("seven x");
+        document.getElementById("ws2").classList.remove("eight x");
+        document.getElementById("ws3").classList.remove("nine x");
+        document.getElementById("map").classList.remove("ten x");
+        document.getElementById("contact").classList.remove("eleven x");
+
+        document.getElementById("bg4").classList.add("four x");
+        document.getElementById("workshops").classList.add("five x");
+        // $("sponsorship").classList.add("four x");
+        document.getElementById("contactLarge").classList.add("six x");
+      }
+    }
+    </script>
   </body>
   </html>

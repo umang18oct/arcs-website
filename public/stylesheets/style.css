@@ -112,12 +112,12 @@ font-size:17px;
 #bg4small{
   display: none;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   #bg4 {
     display: none;
   }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   #bg4small {
     display: block;
   }
@@ -262,4 +262,15 @@ input[type=text]:focus::-webkit-input-placeholder {
 }
 .i1:hover {
   color:#00b7ff;
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven,.twelve{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.x {
+  height: 97vh;
+  margin-top: 3vh;
 }
