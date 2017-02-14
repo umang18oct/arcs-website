@@ -135,11 +135,11 @@ font-size:17px;
  #contact {
   margin-right:0px;
   color: white;
-  padding: 3% 8%;
+  padding: 0 8%;
   background-color: #1f2845;
 }
 #contact input[type="text"] {
-  padding: 5%;
+  padding: 4%;
   margin-bottom: 3%;
   padding-bottom: 0;
   border: 0;
@@ -217,7 +217,6 @@ input[type=text]:focus::-webkit-input-placeholder {
   color: #00b7ff;
 }
 #workshops {
-  margin-bottom: 4vh;
   background-color: white;
 }
 #workshops h1{

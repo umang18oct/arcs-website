@@ -11,10 +11,12 @@ function stackChange(){
 if (window.innerWidth < 768){
   document.getElementById("bg4").classList.remove("four")
   document.getElementById("bg4").classList.remove("x");
-  document.getElementById("contactLarge").classList.remove("six");
-  document.getElementById("contactLarge").classList.remove("x");
   document.getElementById("workshops").classList.remove("five");
   document.getElementById("workshops").classList.remove("x");
+  document.getElementById("contactLarge").classList.remove("six");
+  document.getElementById("contactLarge").classList.remove("x");
+  document.getElementById("footer").classList.remove("seven");
+  document.getElementById("footer").classList.remove("x");
 
   document.getElementById("section1").classList.add("one");
   document.getElementById("section1").classList.add("x");
@@ -38,6 +40,8 @@ if (window.innerWidth < 768){
   document.getElementById("map").classList.add("x");
   document.getElementById("contact").classList.add("eleven");
   document.getElementById("contact").classList.add("x");
+  document.getElementById("footer").classList.add("twelve");
+  document.getElementById("footer").classList.add("x");
 }
 else {
   document.getElementById("img3").classList.remove("four")
@@ -56,6 +60,8 @@ else {
   document.getElementById("map").classList.remove("x");
   document.getElementById("contact").classList.remove("eleven");
   document.getElementById("contact").classList.remove("x");
+  document.getElementById("footer").classList.remove("twelve");
+  document.getElementById("footer").classList.remove("x");
 
   document.getElementById("section1").classList.add("one");
   document.getElementById("section1").classList.add("x");
@@ -70,6 +76,8 @@ else {
   // $("sponsorship").classList.add("four x");
   document.getElementById("contactLarge").classList.add("six");
   document.getElementById("contactLarge").classList.add("x");
+  document.getElementById("footer").classList.add("seven");
+  document.getElementById("footer").classList.add("x");
 }
 $('.x').stack();
 }
