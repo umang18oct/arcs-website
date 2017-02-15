@@ -113,8 +113,6 @@ font-size:17px;
   #bg4 {
     display: none;
   }
-}
-@media only screen and (max-width: 768px) {
   #bg4small {
     display: block;
   }
@@ -172,8 +170,6 @@ font-size:17px;
   #name, #email {
     width:92%;
   }
-}
-@media only screen and (max-width: 768px) {
   .para {
     font-size:10px;
   }
