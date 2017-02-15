@@ -24,10 +24,10 @@ if (window.innerWidth < 768){
   document.getElementById("section2").classList.add("x");
   document.getElementById("carousalMain").classList.add("three");
   document.getElementById("carousalMain").classList.add("x");
-  document.getElementById("img3Small").classList.add("four");
-  document.getElementById("img3Small").classList.add("x");
-  document.getElementById("aboutSmall").classList.add("five");
+  document.getElementById("aboutSmall").classList.add("four");
   document.getElementById("aboutSmall").classList.add("x");
+  document.getElementById("img3Small").classList.add("five");
+  document.getElementById("img3Small").classList.add("x");
   document.getElementById("workshopHeading").classList.add("six");
   document.getElementById("workshopHeading").classList.add("x");
   document.getElementById("ws1").classList.add("seven");
@@ -44,10 +44,10 @@ if (window.innerWidth < 768){
   document.getElementById("footer").classList.add("x");
 }
 else {
-  document.getElementById("img3Small").classList.remove("four")
-  document.getElementById("img3Small").classList.remove("x");
-  document.getElementById("aboutSmall").classList.remove("five")
+  document.getElementById("aboutSmall").classList.remove("four")
   document.getElementById("aboutSmall").classList.remove("x");
+  document.getElementById("img3Small").classList.remove("five")
+  document.getElementById("img3Small").classList.remove("x");
   document.getElementById("workshopHeading").classList.remove("six");
   document.getElementById("workshopHeading").classList.remove("x");
   document.getElementById("ws1").classList.remove("seven");

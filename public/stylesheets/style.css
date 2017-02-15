@@ -42,7 +42,7 @@ a {
     top:1%;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   #img3 {
     padding:0;
     margin-top:-10vh;
@@ -78,9 +78,6 @@ font-size:17px;
 .bg2  {
   height:60%;
   width:100%;
-}
-.content {
-  margin-right:50px;
 }
 .bg1{
   z-index:100;
@@ -222,7 +219,7 @@ input[type=text]:focus::-webkit-input-placeholder {
 #workshops h1{
   font-size: 44px;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   #workshops{
     font-size: 30px;
   }
@@ -250,7 +247,7 @@ input[type=text]:focus::-webkit-input-placeholder {
 #ws3{
   background-image: url("../images/ws3.jpg");
 }*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 768px) {
   nav{
     overflow-x:hidden;
   }
@@ -273,4 +270,12 @@ input[type=text]:focus::-webkit-input-placeholder {
 .x {
   height: 97vh;
   margin-top: 3vh;
+}
+.content p, #ieeecs {
+  font-size: 17px;
+}
+@media only screen and (max-width: 768px) {
+  .content p, #ieeecs {
+    font-size: 14px;
+  }
 }
