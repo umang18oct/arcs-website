@@ -294,7 +294,4 @@ input[type=text]:focus::-webkit-input-placeholder {
   #contact{
     width: 104%;
   }
-  body{
-    overflow-y: hidden;
-  }
 }
