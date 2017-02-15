@@ -216,7 +216,7 @@ input[type=text]:focus::-webkit-input-placeholder {
 #workshops {
   background-color: white;
 }
-#workshops h1{
+#workshopHeading{
   font-size: 44px;
 }
 @media only screen and (max-width: 768px) {
@@ -277,5 +277,25 @@ input[type=text]:focus::-webkit-input-placeholder {
 @media only screen and (max-width: 768px) {
   .content p, #ieeecs {
     font-size: 14px;
+  }
+  #workshopHeading {
+    padding-top: 40vh;
+    padding-left: 2vw;
+    width: 104%;
+  }
+  .card {
+    margin: 10vh 6vw;
+  }
+  .ws {
+    width: 104%;
+  }
+  #gmap_canvas {
+    height: 94vh !important;
+  }
+  #contact h2 {
+    padding-top: 2vh;
+  }
+  #contact{
+    width: 104%;
   }
 }
